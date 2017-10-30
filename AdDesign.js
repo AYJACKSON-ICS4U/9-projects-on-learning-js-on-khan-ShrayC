@@ -1,0 +1,37 @@
+var carSize = 10;
+var carX = -97;
+var carY = 227;
+draw= function() {
+background(92, 130, 255);
+fill(255, 0, 0);
+textSize(30);
+text("Nice car!", 10, 30);
+textSize(13);
+text("Goes really fast!", 11, 52);
+noStroke();
+fill(255, 238, 0);
+ellipse(394,16,120,120);
+fill(81, 230, 76);
+rect(-1,141,726,295);
+fill(87, 87, 87);
+rect(0,217,425,91);
+fill(255, 247, 0);
+rect(0,258,52,5);
+rect(75,258,52,5);
+rect(150,258,52,5);
+rect(225,258,52,5);
+rect(300,258,52,5);
+rect(375,258,52,5);
+
+fill(145, 145, 145);
+ellipse(carX+24,carY+52,22,22);
+ellipse(carX+71,carY+52,22,22);
+fill(255, 0, 0);
+rect(carX,carY,100,51,50);
+fill(112, 112, 112);
+rect(carX+65, carY, 36,22,5);
+rect(carX+20, carY, 30,22,5);
+fill(255, 217, 0);
+ellipse(carX+93,carY+39,10,10);
+carX+=3;
+};
